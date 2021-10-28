@@ -1,0 +1,40 @@
+* {
+    font-family: Helvetica;
+}
+/****Page header styling****/
+
+header h1{
+    background-image: url('../media/pattern.jpeg');
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+/****Product styling****/
+
+section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
+}
+
+/****Styling for product headings****/
+/****Classes used for reusability as the site grows***/
+
+.brushes {
+    background-color: mediumspringgreen;
+}
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
