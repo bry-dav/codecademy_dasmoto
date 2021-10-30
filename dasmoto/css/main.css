@@ -1,12 +1,14 @@
 * {
-    font-family: Helvetica;
+    /* Be sure to include a fallback like 'sans-serif' in case the user doesnt have the specified font in their browser */
+    font-family: "Helvetica", sans-serif;
 }
 /****Page header styling****/
 
 header h1{
     background-image: url('../media/pattern.jpeg');
     font-size: 100px;
-    font-weight: bold;
+    /* The default CSS settings for the h1 tag set 'font-weight: bold' so this is redundant */
+    /* font-weight: bold; */
     color: khaki;
     text-align: center;
 }
@@ -15,7 +17,8 @@ header h1{
 
 section h2 {
     font-size: 32px;
-    font-weight: bold;
+    /* The default CSS settings for the h2 tag set 'font-weight: bold' so this is redundant */
+    /* font-weight: bold; */
     color: white;
 }
 
